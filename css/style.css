@@ -1,0 +1,140 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+
+
+
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFProDisplay-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "lato";
+}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.singlepost__container {
+	width: 810px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.singlepost__title {
+	margin-bottom: 60px;
+}
+
+.title__top {
+	font-size: 46px;
+	font-weight: 900;
+	color: black;
+	margin-bottom: 100px;
+}
+
+.text__block {
+	margin-bottom: 38px;
+}
+
+.list__item {
+	padding: 0px 0px 0px 30px;
+	margin-bottom: 10px;
+	background: url("../img/OnlineCourse/check.svg") 0 2px / 16px no-repeat;
+}
+
+.list__item:last-child {
+	margin: 0;
+}
+
+.block-list {
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom: 38px;
+}
+
+.text__list {
+	margin-bottom: 50px;
+}
+
+.list {
+	font-weight: 400;
+	color: black;
+	text-shadow: 1px 1px 2px rgb(37, 37, 37);
+}
+.main__text-one {
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+	line-height: 30px;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+	margin-bottom: 38px;
+}
+
+.text__paragraph {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 1px 1px 3px rgb(37, 37, 37);
+	line-height: 26px;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.text__lorem {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0px 0px 0px 50px;
+	background: url("../img/OnlineCourse/braces.svg") 0 2px / 28px no-repeat;
+}
+
+.text__paragraph_fonts {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.block-one {
+	width: 810px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.text-four:hover ~.text-five,
+.text-five:hover {
+	visibility: visible;
+}
+
+
+
